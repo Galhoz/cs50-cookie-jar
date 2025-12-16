@@ -37,3 +37,4 @@ def test_withdraw():
 
     with pytest.raises(ValueError):
         jar.withdraw(3)
+
